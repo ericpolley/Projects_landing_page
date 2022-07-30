@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(images/student-849825_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:beige;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+.links {
+    color: rgba(255, 255, 255, 0.3);;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    text-align: center;
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.boxheading {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    display: flex;
+    margin: auto;
+}
+
+.projectimages {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+p {
+    color:beige;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+}
+.navbarLinks {
+    text-align: center;
+
+}
+
+.navbarFloat {
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    
+    position: fixed;
+}
+.casketTop {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+   height: fit-content;
+    max-height: fit-content;
+    
+
+
+}
+
+.casketProjectGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    max-width: 100%;
+    justify-content: center;
+   
+ 
+}
+
+.casketProject {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerProject {
+    display: flex;
+    margin: 1% 10%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.projectimage {
+    margin: 1px 4px;
+    width: 140px;
+    height: 140px;
+
+}
+.projectcode {
+    margin: 2px;
+    width: 140px;
+    height: 140px;
+}
+
+.containerText {
+    min-width: 300px;
+    height: 400px;
+    padding: 20px 0;
+    width: 420px;
+    max-width: 440px;
+    background-color: rgba(25, 25, 31, 0.5);
+    overflow: auto;
+
+}
